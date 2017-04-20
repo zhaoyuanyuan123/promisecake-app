@@ -1,0 +1,144 @@
+html {
+    font-size: 100px;
+}
+body,html{
+    height:100%;
+}
+
+body{
+    font-size: 0.16rem;
+    font-family: "hiragino sans gb";
+    margin:0px;
+    padding:0px;
+    color:#333;
+}
+header{
+    width:100%;
+    height:1rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+header input{
+    display:inline-block;
+}
+.head_portrait{
+    width:0.45rem;
+    height:0.45rem;
+    border-radius:50%;
+    overflow:hidden;
+    margin-left:30%;
+    margin-top:0.1rem;
+
+}
+.head_portrait img{
+    width:0.85rem;
+    height:0.8rem;
+    display:inline;
+}
+.oLogin{
+    width:40%;
+    height:0.2rem;
+    font-size:0.12rem;
+    margin-left:0.1rem;
+    margin-top:0.2rem;
+
+}
+.oLogin input{
+    width:35%;
+    height:0.2rem;
+    background:#ac8e6a;
+    color:#fff;
+    border-radius:3px;
+}
+nav{
+    height:0.6rem;
+    border-top:1px solid #ac8e6a;
+    border-bottom:1px solid #ac8e6a;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+
+}
+nav i{
+    color:#ac8e6a;
+    margin-left:0.1rem;
+}
+nav span{
+    font-size:0.1rem;
+}
+.couponList{
+    height:0.8rem;
+    border-bottom:1px solid #ac8e6a;
+}
+.coupon,.leclud{
+    margin:0.05rem;
+    font-size:0.12rem;
+    position:relative;
+    margin-top:0.05rem;
+    height:0.35rem;
+    line-height:0.4rem;
+}
+.coupon i,.leclud i{
+    color:#ac8e6a;
+    margin:0.1rem;
+}
+.coupon span,.leclud span{
+    color:#222;
+
+}
+.coupon #gtBtn,.leclud #gtBtn{
+    position:absolute;
+    right:0.03rem;
+    font-size:0.16rem;
+    color:#222;
+    top:-0.1rem;
+    font-weight:bold;
+}
+.aboutList{
+    height:2.5rem;
+    position:relative;
+}
+.aboutList span{
+    margin-left:0.1rem;
+    font-size:0.1rem;
+ }
+.aboutList p{
+    font-size:0.11rem;
+    position:absolute;
+    bottom:0.2rem;
+    left:0.7rem;
+    color:#333;
+}
+.aboutList p i{
+    color:#ac8e6a;
+}
+footer{
+    color:#ac8e6a;
+    border-top:1px solid #ac8e6a;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+footer div{
+    margin-top:0.1rem;
+    text-align:center;
+}
+footer .iconfont{
+    font-size:0.16rem;
+}
+footer span {
+    font-size: 0.1rem;
+}
+/* display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+	border:1px solid #000;*/

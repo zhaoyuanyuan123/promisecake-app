@@ -1,0 +1,118 @@
+html {
+    font-size: 100px;
+}
+body,html{
+    height:100%;
+}
+i,em{
+    font-style:normal;
+}
+body{
+    font-size: 0.16rem;
+    font-family: "hiragino sans gb";
+    margin:0px;
+    padding:0;
+}
+header{
+    height:0.26rem;
+    border:1px solid #aaa;
+    padding-top:0.06rem;
+    position:relative;
+    color:#ac8e6a;
+}
+.adress{
+    display:inline-block;
+    margin-top:-0.1rem;
+    float:left;
+    height:0.3rem;
+    line-height:0.43rem;
+}
+header i{
+    margin-left:0.2rem;
+    font-size:0.14rem;
+}
+header a{
+    color:#ac8e6a;
+    font-size:0.1rem;
+}
+header .pav{
+    width:0.6rem;
+    height:0.26rem;
+    line-height:0.26rem;
+    display:inline-block;
+    margin-left:0.5rem;
+
+}
+header .gifts{
+    width:0.6rem;
+    height:0.26rem;
+    line-height:0.26rem;
+    display:inline-block;
+
+}
+.RichScan{
+    position:absolute;
+    right:0.2rem;
+    top:0.1rem;
+    font-size:0.14rem
+}
+section{
+    height:4.8rem;
+    width:100%;
+    flex:1;
+    overflow:auto;
+}
+.cake_Info img{
+    width:100%;
+}
+.cake_price{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height:0.3rem;
+    padding:0 0.1rem 0 0.1rem;
+
+}
+.cake_price h2{
+    font-size:0.12rem;
+}
+.cake_price i{
+    font-size:0.12rem;
+}
+.cake_price span{
+    color:#aaa;
+    font-size:0.08rem;
+}
+footer{
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+footer div{
+    margin-top:0.1rem;
+    text-align:center;
+
+}
+footer .iconfont{
+    font-size:0.16rem;color:#ac8e6a;
+}
+footer span{
+    font-size:0.1rem;color:#ac8e6a;
+}
+footer .cake_pav i,footer .cake_pav span{
+    color:orange;
+    font-size:0.16rem;
+}
+footer .cake_pav i{
+    font-size:0.24rem;
+}
+/* display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;*/

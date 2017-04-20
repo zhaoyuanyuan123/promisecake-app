@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../swiper/swiper.min.css">
+    <link rel="stylesheet" href="../css/product_info.css">
+</head>
+<body>
+    <header>
+        <a href="cake_%20pavilion.html">
+             <i class="iconfont">&#xe697;</i>
+        </a>
+       <span>商家详情</span>
+        <a href="../index.html">
+            <i class="iconfont">&#xe612; 首页</i>
+        </a>
+    </header>
+    <section>
+        <!--轮播图-->
+        <div class="play">
+	        <!--<div id="product_banner_play">
+	            <div class="swiper-container">
+	                <div class="swiper-wrapper">
+	                    <div class="swiper-slide"><img src="../img/d1.jpg"></div>
+	                    <div class="swiper-slide"><img src="../img/d5.jpg"></div>
+	                </div>
+	                <div class="swiper-pagination" id="imgBtn"></div>
+	            </div>
+	        </div>
+	        <!--尺寸-->
+	        <!--<div id="cake_size">
+	            <p><i>建议</i><br><em>2-4人食</em></p>
+	            <p><i>建议</i><br><em>2-4人食</em></p>
+	            <p><i>建议</i><br><em>2-4人食</em></p>
+	            <p><i>建议</i><br><em>2-4人食</em></p>
+	        </div>-->
+        </div>
+        
+        <div class="cake_price_info">
+	        	 <!--蛋糕名 价格-->
+	        <!--<div id="cake_name_price">
+	            <p><i>海盐乳酪芝士蛋糕</i><em>Parmesan cheesecake</em></p>
+	            <span>￥199.00</span>
+	        </div>
+	        <!--蛋糕详情-->
+	        <!--<div id="cake_info">
+	            <p>口味：芝士口味</p><p>size：13*13cm</p><p>餐具：含5套</p>
+	            <p>甜度：❤❤❤</p><p>重量：约456g</p>
+	        </div>
+	        <div id="reminder">
+	            <i class="iconfont">&#xe6bc;</i> 提交订单或进入详情页可上传语音
+	        </div> -->
+	    </div>
+	    <div class="imgInfo">
+	        <!--<div id="send_word">
+	            <p><i>寻找心中的美味</i><br><em>The Comstom Flavor</em></p>
+	            <img src="../img/d4.jpg" alt="蛋糕">
+	            <span class="goods-intro">充满回忆的味道，总令人难以忘怀。那是西西里岛的风味，充满渔夫自然不造作的热情， 与素未谋面的我，分享渔获，分享喜悦。</span>
+	        </div>
+	        <div id="img_info">
+	            <img src="../img/d3.jpg">
+	            <img src="../img/img-chef.jpg">
+	        </div>-->
+       
+        </div>
+        
+        
+        
+        
+        
+        
+        <div id="about_food">
+            <p><i>关于食材</i><br><em>The Comstom Flavor</em></p>
+            <div class="food_info">
+                <ul>
+                    <li>食材配比</li>
+                    <li>芝士粉</li>
+                    <li>芝士</li>
+                    <li>黄油</li>
+                    <li>幼砂糖</li>
+                </ul>
+                <ul>
+                    <li>食材配比</li>
+                    <li>芝士粉</li>
+                    <li>芝士</li>
+                    <li>黄油</li>
+                    <li>幼砂糖</li>
+                </ul>
+                <ul>
+                    <li>食材配比</li>
+                    <li>芝士粉</li>
+                    <li>芝士</li>
+                    <li>黄油</li>
+                    <li>幼砂糖</li>
+                </ul>
+            </div>
+        </div>
+        <div id="about_eat">
+            <p><i>关于食用</i><br><em>The Comstom Flavor</em></p>
+            <div class="eat_info">
+                <span>口味：芝士口味</span>
+                <span>适合季节：都合适</span>
+                <span>适合群众：大众</span>
+                <span>保鲜条件：冷藏-4°</span>
+                <span>使用方法：张嘴直接吃</span>
+            </div>
+        </div>
+        <img src="../img/d2.jpg" alt="" class="img_info">
+    </section>
+    <footer>
+        <p><i class="iconfont">&#xe61b;</i><br><em>购物车</em></p>
+        <p><i class="iconfont">&#xe6c7;</i><br><em>客服</em></p>
+        <span>加入购物车</span>
+    </footer>
+</body>
+</html>
+<script src="../js/common.js"></script>
+<script src="../swiper/swiper.min.js"></script>
+<script src="../js/cookie.js"></script>
+<script src="../js/jquery-1.8.3.js"></script>
+<script>
+   
+    
+    
+    $.get("../json/cakeInfo.json",function(data){
+    	var d=getCookie("index");
+    	console.log(data)
+    	var htmlStr="<div id='product_banner_play'><div class='swiper-container'><div class='swiper-wrapper'><div class='swiper-slide'><img src='"+
+    	data[d].info_ong+"'></div><div class='swiper-slide'><img src='"+
+    	data[d].info_two+"'></div></div><div class='swiper-pagination' id='imgBtn'></div></div></div> <div id='cake_size'><p><i>建议</i><br><em>2-4人食</em></p><p><i>建议</i><br><em>2-4人食</em></p><p><i>建议</i> <br><em>2-4人食</em></p>";
+    	$(".play").append(htmlStr);
+    	var mySwiper=new Swiper('.swiper-container',{
+	        //udirection:'vertical',
+	        loop:true,
+	        pagination:'.swiper-pagination',
+	        prevButton:'.swiper-button-prev',
+	        nextButton:'.swiper-button-next'
+	    })    	
+    	var priceStr="<div id='cake_name_price'><p><i>"+
+    	data[d].title+"</i><em>Parmesancake</em></p><span>"+
+    	data[d].price+"</span></div><div id='cake_info'><p>口味：芝士口味</p><p>size：13*13cm</p><p>餐具：含5套</p><p>甜度：❤❤❤</p><p>重量：约456g</p></div><div id='reminder'><i class='iconfont'>&#xe6bc;</i> 提交订单或进入详情页可上传语音</div>";
+    	$(".cake_price_info").append(priceStr);
+    	
+    	var imgInfo="<div id='send_word'><p><i>寻找心中的美味</i><br><em>The Comstom Flavor</em></p><img src='"+
+    	data[d].info_url+"' alt='蛋糕'><span class='goods-intro'>充满回忆的味道，总令人难以忘怀。那是西西里岛的风味，充满渔夫自然不造作的热情， 与素未谋面的我，分享渔获，分享喜悦。</span></div><div id='img_info'><img src='"+
+    	data[d].info_img+"'><img src='../img/img-chef.jpg'></div>";
+    	$(".imgInfo").append(imgInfo);
+    })    
+</script>

@@ -1,0 +1,230 @@
+html {
+    font-size: 100px;
+}
+body,html{
+    height:100%;
+}
+
+body{
+    font-size: 0.16rem;
+    font-family:"hiragino sans gb";
+    margin:0;
+    padding:0;
+    color:#666;
+}
+i,em{
+    font-style:normal;
+}
+header a{
+    color:#ac8e6a;
+}
+header .iconfont{
+    font-size:0.16rem;
+}
+header{
+    font-size:0.16rem;
+    color:#ac8e6a;
+    height:0.35rem;
+    bordeR-bottom:1px solid #ac8e6a;
+    line-height:0.35rem;
+}
+header i{
+    margin-left:0.1rem;
+}
+header span{
+    width:1.8rem;
+    text-align:center;
+    display:inline-block;
+    padding-left:0.2rem;
+}
+
+section{
+    height:4.8rem;
+    flex:1;
+    overflow:auto;
+}
+#imgBtn {
+    padding-left:1.2rem;
+}
+#imgBtn span{
+    background:#ac8e6a;
+}
+#product_banner_play {
+    height:2.8rem;
+
+}
+#product_banner_play img{
+    height:2.8rem;
+
+}
+#cake_size{
+    height:0.4rem;
+    border-bottom:1px solid #ddd;
+    color:#ac8e6a;
+    font-size:0.1rem;
+   padding-top:0.05rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#cake_size i{
+    margin-left:0.08rem;
+}
+#cake_name_price{
+    height:0.48rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size:0.14rem;
+    margin:0 0.1rem 0 0.1rem;
+    border-bottom:1px solid #ddd;
+}
+#cake_name_price p{
+    width:60%;
+}
+#cake_name_price span{
+    color:orangered;
+}
+#cake_info{
+    height:0.5rem;
+    padding:0.1rem;
+    margin:0 0.1rem 0 0.1rem;
+    border-bottom:1px solid #ddd;
+    font-size:0.12rem;
+    color:#666;
+}
+#cake_info p{
+    width:33%;
+    margin-top:0.1rem;
+    display:inline-block;
+    font-size:0.12rem;
+}
+#reminder{
+    height:0.4rem;
+    line-height:0.4rem;
+    font-size:0.12rem;
+    margin:0 0.1rem 0 0.1rem;
+    border-bottom:1px solid #ddd;
+}
+#reminder i{
+    color:orangered;
+    margin-left:0.32rem;
+
+}
+#send_word,#img_info{
+    height:2.5rem;
+    padding:0.1rem 0.25rem 0.1rem 0.25rem;
+    margin:0 0.1rem 0 0.1rem;
+    border-bottom:1px solid #ddd;
+}
+#send_word p{
+    color:#ac8e6a;
+    text-align:center;
+    font-size:0.14rem;
+}
+#send_word img{
+    width:100%;
+    height:1.5rem;
+}
+#send_word span{
+    font-size:0.12rem;
+}
+#img_info{
+    height:3.6rem;
+    padding:0.1rem 0.15rem 0.1rem 0.15rem;
+    border-bottom:1px solid #ac8e6a;
+}
+#img_info img{
+    width:100%;
+    height:1.8rem;
+}
+#about_food p{
+    color:#ac8e6a;
+    text-align:center;
+    font-size:0.14rem;
+}
+ul li{
+    list-style:none;
+}
+.food_info{
+    height:1.2rem;
+    margin:0 0.1rem 0 0.1rem;
+    border-bottom:1px solid #ac8e6a;
+}
+#about_food .food_info{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.food_info ul{
+    width:20%;
+    text-align:left;
+    padding:0.1rem;
+    font-size:0.14rem;
+    padding-left:0.1rem;
+    color:#333;
+}
+#about_eat{
+    height:1.5rem;
+    padding:0.1rem 0.25rem 0.1rem 0.25rem;
+    border-bottom:1px solid #ac8e6a;
+}
+#about_eat p{
+    color:#ac8e6a;
+    text-align:center;
+    font-size:0.14rem;
+}
+.eat_info{
+    margin-top:0.23rem;
+}
+.eat_info span{
+    display:block;
+    margin-left:0.2rem;
+    font-size:0.14rem;
+    margin-top:0.05rem;
+}
+.img_info{
+    height:1.2rem;
+    width:100%;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height:0.45rem;
+    border-top:1px solid #ddd;
+}
+footer p{
+    width:26%;
+    color:#ac8e6a;
+    font-size:0.14rem;
+    margin-left:0.1rem;
+    text-align:center;
+}
+footer p i{
+    margin-left:0.05rem;
+}
+footer span{
+    height:0.45rem;
+    display:block;
+    text-align:center;
+    line-height:0.45rem;
+    background:orangered;
+    color:#fff;
+    padding-left:0.1rem;
+    padding-right:0.1rem;
+}
+/* display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+	border:1px solid #000;*/
